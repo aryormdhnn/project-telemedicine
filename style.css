@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+    margin: 0 120px;
+}
+
+.nav-link{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #78828A;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #00A376;
+    font-weight: 700;
+}
+
+.navbar-nav .icon{
+    margin: 0 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        margin: 0 20px;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-nav .icon{
+        display: none;
+    }
+
+    .nav-link{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        color: #78828A;
+        font-weight: 500;
+    }
+
+    .navbar-nav .btn{
+        margin: 8px 0;
+
+    }
+}
+    
+@media screen and (max-width: 576px) {
+    .navbar{
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar{
+        margin: 0 20px;
+    }
+}
