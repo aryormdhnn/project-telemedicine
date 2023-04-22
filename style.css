@@ -4,7 +4,7 @@
   font-family: 'Inter', sans-serif;
 }
 
-.navbar{
+.body{
     margin: 0 120px;
 }
 
@@ -51,6 +51,15 @@
 
     }
 }
+
+/* Styling Carousel */
+
+.carousel-item{
+    width: 100%; /* Memastikan gambar memenuhi kotak dengan lebar yang sesuai */
+    height: 610px;
+}
+
+/* End Styling Carousel */
     
 @media screen and (max-width: 576px) {
     .navbar{
