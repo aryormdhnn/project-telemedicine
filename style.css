@@ -53,6 +53,31 @@
     object-fit: cover;
 }
 
+.card-title{
+    font-size: 24px;
+    color: #121212;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 16px;
+    color: #78828A;
+    font-weight: 400;
+}
+
+#load-more-btn{
+    margin: 24px 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
 
