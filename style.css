@@ -30,6 +30,68 @@
     margin: 0 8px;
 }
 
+/* Styling Homepage */
+
+.banner {
+    margin: 40px 120px;
+    background-color: rgb(11, 171, 100);
+    border-radius: 16px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .content h1 {
+   font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0 32px;
+  }
+  
+  .content p {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0 32px;
+}
+
+.btn-home {
+    margin: 24px 32px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    width: 250px;
+    background-color: #ffffff;
+    color: #00A376;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .banner .gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+/* End Styling Homepage */
+
+
+
+
+
+
+
 #carouselExampleSlidesOnly {
     margin: 40px 120px;
 }
