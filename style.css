@@ -117,6 +117,54 @@
     height: 64px;
   }
   
+  .card-dokter{
+    padding: 24px;
+    border-radius: 12px;
+  }
+
+  .card-dokter:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+    }
+
+  .card-title{
+    font-size: 24px;
+    color: #121212;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .card-text-spesialis{
+    font-size: 16px;
+    color: #66707A;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .card-text-harga{
+    font-size: 16px;
+    color: #121212;
+    font-weight: 600;
+    text-align: left;
+    margin-right: auto;
+  }
+
+  .harga-orange{
+    color: orange;
+  }
+
+  .btn-konsul {
+    background-color: #00A376;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
 
 /* End Styling Homepage */
 
